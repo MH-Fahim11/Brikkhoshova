@@ -1,12 +1,15 @@
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
+import Slider from "./Slider";
 
 
 const Home = () => {
     return (
         <div>
-            <Navbar>
-                
-            </Navbar>
+            <Navbar/>
+            <Slider/>
+            <Footer/>
+           
         </div>
     );
 };
