@@ -29,7 +29,7 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide ><div className="hero min-h-screen" style={{backgroundImage: 'url(/src/assets/slider/s1.jpg)'}}>
+        <SwiperSlide ><div className="hero min-h-screen" style={{backgroundImage: 'url(/slider/s1.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
