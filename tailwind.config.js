@@ -10,7 +10,8 @@ export default {
         'slider1': "url('/src/assets/slider/s1.jpg')",
       },
       fontFamily: {
-        raleway: ['Raleway']
+        raleway: ['Raleway'],
+        nunito: ['Nunito'],
       },
       
     },
