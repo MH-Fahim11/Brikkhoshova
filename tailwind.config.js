@@ -8,9 +8,13 @@ export default {
     extend: {
       backgroundImage: {
         'slider1': "url('/src/assets/slider/s1.jpg')",
-      }
+      },
+      fontFamily: {
+        raleway: ['Raleway']
+      },
       
     },
+
   },
   plugins: [require("daisyui")],
 }

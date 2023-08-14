@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 px-5">
+    <div className="navbar bg-base-100 px-5 z-50 sticky top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,14 +28,6 @@ const Navbar = () => {
             </li>
             <li>
               <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a>Item 3</a>
