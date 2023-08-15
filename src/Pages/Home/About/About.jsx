@@ -6,7 +6,7 @@ const About = () => {
     <div className=" pt-10 pb-10 flex gap-10 px-20 font-nunito">
       <div className=" w-[1500px] ">
         {" "}
-        <img src="/public/About.jpg" className=" rounded-lg" alt="" />
+        <img src="/About.jpg" className=" rounded-lg" alt="" />
       </div>
       <div>
         <h1 className=" font-bold">About My Garden</h1>
