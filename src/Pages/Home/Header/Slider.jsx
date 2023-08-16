@@ -29,7 +29,7 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero md:min-h-screen min-h-[50vh]"
             style={{ backgroundImage: "url(/slider/s1.jpg)" }}
           >
             <div className="hero-overlay bg-opacity-60"></div>
@@ -54,7 +54,7 @@ const Slider = () => {
         {/* 2 */}
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero md:min-h-screen min-h-[50vh]"
             style={{ backgroundImage: "url(/slider/s2.jpg)" }}
           >
             <div className="hero-overlay bg-opacity-60"></div>
@@ -79,7 +79,7 @@ const Slider = () => {
         {/* 3 */}
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero md:min-h-screen min-h-[50vh]"
             style={{ backgroundImage: "url(/slider/s3.jpg)" }}
           >
             <div className="hero-overlay bg-opacity-60"></div>

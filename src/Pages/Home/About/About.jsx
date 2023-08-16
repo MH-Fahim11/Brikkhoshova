@@ -3,14 +3,15 @@ import { FaBuildingWheat } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className=" pt-10 pb-10 flex gap-10 px-20 font-nunito">
-      <div className=" w-[1500px] ">
+    <div className=" pt-10 pb-10 md:flex gap-10 md:px-20 px-10 font-nunito">
+        
+      <div className=" md:w-[1500px] ">
         {" "}
         <img src="/About.jpg" className=" rounded-lg" alt="" />
       </div>
       <div>
-        <h1 className=" font-bold">About My Garden</h1>
-        <h1 className=" text-[#209E2E] font-extrabold text-5xl">
+        <h1 className=" font-bold text-xl md:text-2xl">About My Garden</h1>
+        <h1 className=" text-[#209E2E] font-extrabold text-2xl md:text-5xl pt-2 md:pt-0">
           We Can Create an Environment That’s Beyond Your Imagination.
         </h1>
         <p className=" pt-5 text-[#808080] ">
